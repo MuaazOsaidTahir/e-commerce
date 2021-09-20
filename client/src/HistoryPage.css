@@ -1,0 +1,17 @@
+.HistoryPage{
+    background-color: white;
+    margin: 20px;
+    padding: 1rem;
+}
+
+.historypage__top{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.historypage__top select{
+    flex: 0.2;
+    outline: none;
+}

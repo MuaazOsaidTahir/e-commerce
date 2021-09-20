@@ -1,0 +1,24 @@
+.HomePage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1500px;
+}
+
+.home__image {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    -webkit-mask-image: linear-gradient(
+180deg
+,#000,transparent);
+    mask-image: linear-gradient(180deg,#000,transparent);
+}
+
+.home__row {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}

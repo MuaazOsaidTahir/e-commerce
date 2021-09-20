@@ -1,0 +1,12 @@
+.CategoryPage{
+    background-color: white;
+    padding: 2rem;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category__products{
+    display: flex;
+    flex-wrap: wrap;
+}

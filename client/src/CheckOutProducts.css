@@ -1,0 +1,50 @@
+.CheckOutProducts{
+    display: flex;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.CheckOutProducts img{
+    width: 250px;
+    object-fit: contain;
+}
+
+.CheckOutProducts .product__details{
+    flex: 1;
+    padding: 1rem;
+}
+
+.CheckOutProducts .product__details div{
+    display: flex;
+}
+
+.CheckOutProducts .product__details h3{
+    margin-bottom: 10px;
+}
+
+.removefrom__basket{
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #F8C14B;
+    margin-top: 20px;
+}
+
+.product__quantity{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.product__quantity button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #F8C14B;
+    padding: 10px;
+}
+
+.product__quantity strong{
+    padding: 10px;
+}

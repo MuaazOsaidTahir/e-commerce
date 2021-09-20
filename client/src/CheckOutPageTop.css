@@ -1,0 +1,31 @@
+.CheckOutPageTop{
+    padding: 20px;
+    display: flex;
+    padding-bottom: 0px;
+}
+
+.CheckOutPageTop img{
+    width: 75%;
+    object-fit: contain;
+}
+
+.payment__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 132px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.payment__box button{
+    background-color: #F0C14B;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}

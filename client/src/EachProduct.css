@@ -1,0 +1,25 @@
+.eachProduct{
+    max-width: 215px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eachProduct img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.eachProduct a{
+    color: black;
+}
+
+.eachProduct button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #F8C14B;
+}
